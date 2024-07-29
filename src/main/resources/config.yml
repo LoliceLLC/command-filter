@@ -1,1 +1,15 @@
-someconfig: true
+# Block commands with a colon (e.g., /plugin:command)
+blockColonCommands: true
+
+# Block commands with a space after /
+blockWhitespaceCommands: true
+
+# Message when trying to use a locked command with a colon
+invalidColonCommandMessage: "&cThe use of commands like /plugin:command is disallowed."
+
+# Message when trying to use a command with a space after /
+invalidWhitespaceCommandMessage: "&cThe use of commands with a space after / is disallowed."
+
+# List of plugins for which colon commands are enabled
+whitelistedPlugins:
+  - "ExamplePlugin"

@@ -1,8 +1,7 @@
-name: KotlinPluginTemplate
-main: org.simplemc.plugintemplate.KotlinPluginTemplate
+name: CommandFilter
+main: us.lolice.commandfilter.CommandFilter
 version: "${version}"
 api-version: "${apiVersion}"
-website: https://github.com/SimpleMC/mc-kotlin-plugin-template
-author: tajobe
+author: keanoi
 libraries:
   - org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}
